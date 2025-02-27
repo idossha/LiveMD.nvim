@@ -1,6 +1,6 @@
 # LiveMD.nvim
 
-A lightweight, fast Markdown preview plugin for NeoVim that renders your Markdown files in a browser with live updates.
+A lightweight, fast Markdown preview plugin for NeoVim that renders your Markdown files in a browser with live updates. Inspired by [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
 
 ## Features
 
