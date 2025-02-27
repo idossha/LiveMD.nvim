@@ -17,7 +17,7 @@ A lightweight, fast Markdown preview plugin for NeoVim that renders your Markdow
 ```lua
 -- Add to your lazy.nvim configuration
 {
-  "idohaber/LiveMD.nvim",
+  "idossha/LiveMD.nvim",
   ft = {"markdown", "md"},
   cmd = {"LiveMDStart", "LiveMDStop"},
   config = true,
@@ -28,7 +28,7 @@ A lightweight, fast Markdown preview plugin for NeoVim that renders your Markdow
 
 ```lua
 use {
-  'idohaber/LiveMD.nvim',
+  'idossha/LiveMD.nvim',
   config = function()
     require('livemd').setup()
   end,
