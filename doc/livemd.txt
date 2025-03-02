@@ -35,7 +35,7 @@ Features:
 Using lazy.nvim:
 >
     {
-      "idohaber/LiveMD.nvim",
+      "idossha/LiveMD.nvim",
       ft = {"markdown", "md"},
       cmd = {"LiveMDStart", "LiveMDStop"},
       config = true,
@@ -45,7 +45,7 @@ Using lazy.nvim:
 Using packer.nvim:
 >
     use {
-      'idohaber/LiveMD.nvim',
+      'idossha/LiveMD.nvim',
       config = function()
         require('livemd').setup()
       end,
@@ -55,7 +55,7 @@ Using packer.nvim:
 
 Manual installation:
 >
-    git clone https://github.com/idohaber/LiveMD.nvim.git \
+    git clone https://github.com/idossha/LiveMD.nvim.git \
         ~/.local/share/nvim/site/pack/plugins/start/LiveMD.nvim
 <
 
@@ -137,9 +137,9 @@ Issues:
 
 Author:   Ido Haber
 License:  MIT
-Repository: https://github.com/idohaber/LiveMD.nvim
+Repository: https://github.com/idossha/LiveMD.nvim
 
 If you find any bugs or have feature requests, please visit:
-    https://github.com/idohaber/LiveMD.nvim/issues
+    https://github.com/idossha/LiveMD.nvim/issues
 
  vim:tw=78:ts=8:ft=help:norl:
