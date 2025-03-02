@@ -47,14 +47,14 @@ function M.show_switch_prompt(current_buffer, new_buffer, on_switch)
   
   -- Set key mappings for the prompt
   local opts = { noremap = true, silent = true, buffer = prompt_buf }
-  vim.keymap.set('n', 'y', function()
+  vim.keymap.set('n', 'Y', function()
     -- User selected Yes - switch to the new buffer
     on_switch(new_buffer)
     vim.api.nvim_win_close(win, true)
     vim.notify("Switched preview to: " .. buf_name, vim.log.levels.INFO)
   end, opts)
   
-  vim.keymap.set('n', 'n', function()
+  vim.keymap.set('n', 'N', function()
     -- User selected No - close the prompt only
     vim.api.nvim_win_close(win, true)
     vim.notify("Kept existing preview", vim.log.levels.INFO)
